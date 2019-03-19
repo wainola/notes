@@ -8,4 +8,3 @@ const s = arrPro.reduce((acc, item) => {
 }, Promise.resolve([]));
 
 s.then(d => console.log(d));
-Promise.resolve("pico").then(d => console.log(d));
